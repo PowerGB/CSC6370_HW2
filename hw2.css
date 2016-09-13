@@ -18,6 +18,21 @@ body {
 	border: 10px solid #DDD;
 }
 
+h1 {
+	color: white;
+	font-family: 'Pinyon Script';
+	text-shadow:1px 2px 2px #555;
+	margin:10px;
+}
+
+#to{
+	text-align: left;
+}
+
+#from{
+	text-align: right;
+}
+
 .container{
 	display:table-cell; 
 	vertical-align:middle;
