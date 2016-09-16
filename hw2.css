@@ -40,6 +40,22 @@ h1 {
 	border: 5px solid #777;
 }
 
+h1 {
+color: white;
+font-family: 'Pinyon Script';
+text-shadow:1px 2px 2px #555;
+margin:10px;
+}
+
+#to{
+text-align: left;
+}
+
+#from{
+text-align: right;
+}
+
+
 #hr-1{
 	border: 0;
 	height: 1px;
