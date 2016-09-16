@@ -17,8 +17,11 @@
         <span id="y">-25th-</span>
     </div>
     <hr id="hr-2"/>
-    <h1 id="from">Your Bin.</h1>
+    <h1 id="from">
+        <input type="text" id="FromName" placeholder="please input her/his name">
+    </h1>
     <button type="button" id='btn' onclick="document.getElementById('to').innerHTML = 'Dear '+ document.getElementById('ToName').value;
-                                               document.getElementById('btn').style.visibility='hidden';">Change name</button>
+                                            document.getElementById('from').innerHTML = 'Your '+ document.getElementById('FromName').value;
+                                            document.getElementById('btn').style.visibility='hidden';">Change name</button>
 </div>
 </body>

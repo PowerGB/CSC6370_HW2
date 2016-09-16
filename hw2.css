@@ -91,3 +91,34 @@ text-align: right;
 	font-weight:300;
 	text-decoration: none;
 }
+
+#btn {
+	background-color: transparent;
+	color: white;
+	border: 1px dashed white;
+	float:right;
+	margin: 10px;
+	font-size: medium;
+}
+
+#ToName, #FromName{
+	background-color: transparent;
+	color:white;
+	text-shadow: none;
+	border:1px dashed white;
+	font-size: medium;
+}
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color: white;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+	color: white;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+	color: white;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+	color: white;
+}
