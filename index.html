@@ -7,7 +7,9 @@
 </head>
 <body>
 <div class="container">
-    <h1 id="to">Dear Grace:</h1>
+    <h1 id="to">
+        <input type="text" id="ToName" placeholder="please input her/his name">
+    </h1>
     <hr id="hr-1"/>
     <div class="txt">
         <span id="t">Happy Birthday</span>
@@ -16,5 +18,7 @@
     </div>
     <hr id="hr-2"/>
     <h1 id="from">Your Bin.</h1>
+    <button type="button" id='btn' onclick="document.getElementById('to').innerHTML = 'Dear '+ document.getElementById('ToName').value;
+                                               document.getElementById('btn').style.visibility='hidden';">Change name</button>
 </div>
 </body>
